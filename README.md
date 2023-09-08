@@ -6,10 +6,12 @@
 
 <h3>Tecnologias que já estudei</h3>
 
-| Frontend | Backend | Android | Banco de Dados | Nuvem |
-| --- | --- | --- | --- | --- |
-| HTML | C | Kotlin | MySQL | AWS RDS|
-| CSS | C++ | Java | Postgres | AWS EC2
-| VueJS | Java | Jatpack com Copose ||
-| AngularJS | Python ||
-| BootStrap | JavaScript ||
+| Frontend | Backend | Android | Banco de Dados | Nuvem | Embarcados |
+| --- | --- | --- | --- | --- | --- |
+| HTML | C | Kotlin | MySQL | AWS RDS| FreeRTOS |
+| CSS | C++ | Java | Postgres | AWS EC2 |
+| VueJS | Java | Jatpack com Copose |||
+| AngularJS | Python |||
+| BootStrap | JavaScript |||
+
+<strong>Também tenho esperiência com distribuições Linux.</strong>
