@@ -1,6 +1,6 @@
 <h1>Seja Bem Vindo 👋</h1>
 
-<p>Tenho 19 anos, atualmente estou cursando o técnologo em análise e desenvolvimento de sistemas, na Universidade Federal do Ceará, mais especificamente no campus Jardins de Anita. Estou no 4º semestre e estou buscando ser um desenvolvedor backend.</p>
+<p>Tenho 20 anos, atualmente estou cursando o técnologo em análise e desenvolvimento de sistemas, na Universidade Federal do Ceará, mais especificamente no campus Jardins de Anita. Estou no 5º semestre.</p>
 
 <h3>Tecnologias que já estudei</h3>
 
