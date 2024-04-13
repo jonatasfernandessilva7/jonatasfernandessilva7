@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+}
+
+.cursos {
+    background-image: url('https://source.unsplash.com/random');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: #333;
+}
+
+.cursos ul {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cursos li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 28px;
+    }
+
+    .cursos {
+        padding: 50px 0;
+    }
+
+    .cursos ul {
+        padding: 10px;
+    }
+
+    .cursos li {
+        font-size: 16px;
+    }
+}

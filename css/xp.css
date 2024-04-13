@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.experiencia {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia.contabilidade ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.experiencia.contabilidade li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .experiencia {
+        padding: 15px;
+    }
+
+    header {
+        font-size: 20px;
+    }
+
+    .experiencia.contabilidade li {
+        font-size: 16px;
+    }
+}
