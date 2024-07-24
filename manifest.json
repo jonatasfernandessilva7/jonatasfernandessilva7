@@ -1,25 +1,25 @@
 {
-    "name": "Curriculo Jonatas Fernandes Silva",
-    "short_name": "PWA",
-    "description": "Exemplo de Progressive Web Application",
-    "lang": "pt-BR",
-    "dir": "ltr",
-    "start_url": "/index.html",
-    "scope": "/",
-    "display": "standalone",
-    "orientation": "portrait-primary",
-    "background_color": "#ffffff",
-    "theme_color": "#333333",
-    "icons": [
-    {
-      "src": "/imagens/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/imagens/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
+  "name": "Currículo Jonatas Fernandes Silva",
+  "short_name": "Currículo JFS",
+  "description": "Currículo profissional de Jonatas Fernandes Silva, especializado em desenvolvimento web.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#333333",
+  "icons": [
+      {
+          "src": "/imagens/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      },
+      {
+          "src": "/imagens/icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
   ]
 }

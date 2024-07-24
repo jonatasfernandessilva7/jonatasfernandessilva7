@@ -1,41 +1,45 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculo Jonatas Fernandes Silva</title>
+    <title>Currículo de Jonatas Fernandes Silva</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
+    <meta name="description" content="Currículo profissional de Jonatas Fernandes Silva, especializado em desenvolvimento web.">
+    <meta name="theme-color" content="#333333">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1></h1>
+            <h1>Jonatas Fernandes Silva</h1>
         </div>
     </header>
     <main class="container">
         <section id="profile">
             <div class="profile-image">
                 <!-- Incluir uma imagem do perfil -->
+                <!-- Exemplo: <img src="profile.jpg" alt="Foto de Jonatas Fernandes Silva"> -->
             </div>
             <div class="profile-info">
-                <h2>Nome do Autor</h2>
-                <p>Habilidades: Desenvolvimento Web, JavaScript, HTML, CSS, etc.</p>
-                <p>Experiência: Currículo resumido aqui.</p>
+                <h2>Sobre Mim</h2>
+                <p>Habilidades: Desenvolvimento Web, JavaScript, HTML, CSS, React, Node.js, etc.</p>
+                <p>Experiência: Profissional com experiência em desenvolvimento web, incluindo a criação de aplicações de página única (SPA) e Progressive Web Apps (PWA).</p>
             </div>
         </section>
     </main>
-    <script type="text/JavaScript">
-        if ('Notification' in window && 'serviceWorker' in navigator) {
-          navigator.serviceWorker.register('service-worker.js')
-          .then((registration) => {
-            console.log('Service Worker registrado com sucesso:', registration);
-          })
-          .catch((error) => {
-            console.log('Falha ao registrar o Service Worker:', error);
-          });
-        }
-      </script>
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('service-worker.js')
+                .then(function(registration) {
+                    console.log('Service Worker registrado com sucesso:', registration);
+                })
+                .catch(function(error) {
+                    console.error('Falha ao registrar o Service Worker:', error);
+                });
+            });
+        }
+    </script>
 </body>
 </html>
