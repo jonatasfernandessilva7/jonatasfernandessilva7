@@ -27,12 +27,12 @@
         </section>
     </main>
     <script type="text/JavaScript">
-        if ('serviceWorker' in navigator) {
+        if ('Notification' in window && 'serviceWorker' in navigator) {
           navigator.serviceWorker.register('service-worker.js')
-          .then(function(registration) {
+          .then((registration) => {
             console.log('Service Worker registrado com sucesso:', registration);
           })
-          .catch(function(error) {
+          .catch((error) => {
             console.log('Falha ao registrar o Service Worker:', error);
           });
         }
