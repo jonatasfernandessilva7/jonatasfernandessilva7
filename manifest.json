@@ -3,7 +3,6 @@
     "short_name": "Currículo JFS",
     "description": "Currículo profissional de Jonatas Fernandes Silva, especializado em desenvolvimento web.",
     "start_url": "https://jonatasfernandessilva7.github.io/jonatasfernandessilva7/index.html",
-    "scope":"/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000"  
