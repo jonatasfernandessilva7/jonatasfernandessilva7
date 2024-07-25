@@ -3,9 +3,6 @@ self.addEventListener('install', function(event) {
         caches.open('v1').then(function(cache) {
             return cache.addAll([
                 '/',
-                '/jonatasfernandessilva7/index.html',
-                '/jonatasfernandessilva7/styles.css', // Exemplo de outros recursos
-                '/jonatasfernandessilva7/script.js'  // Exemplo de outros recursos
             ]);
         })
     );
