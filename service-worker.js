@@ -3,7 +3,9 @@ self.addEventListener('install', function(event) {
         caches.open('v1').then(function(cache) {
             return cache.addAll([
                 '/',
-            ]);
+            ]).catch(function(error) {
+                console.error('Failed to cache resources:', error);
+            });
         })
     );
 });
@@ -12,10 +14,11 @@ self.addEventListener('fetch', function(event) {
     event.respondWith(
         caches.match(event.request).then(function(response) {
             return response || fetch(event.request);
+        }).catch(function(error) {
+            console.error('Failed to fetch resource:', error);
         })
     );
 });
-
 
 console.log('Service Worker Installing:', registration.installing);
 console.log('Service Worker Waiting:', registration.waiting);
