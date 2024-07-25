@@ -15,3 +15,8 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+
+
+console.log('Service Worker Installing:', registration.installing);
+console.log('Service Worker Waiting:', registration.waiting);
+console.log('Service Worker Active:', registration.active);
