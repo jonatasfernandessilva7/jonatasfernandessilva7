@@ -4,7 +4,8 @@ self.addEventListener('install', function(event) {
             return cache.addAll([
                 '/',
                 '/index.html',
-                '/styles.css'
+                '/styles.css',
+                '/script.js'
             ]).catch(function(error) {
                 console.error('Failed to cache resources:', error);
             });
