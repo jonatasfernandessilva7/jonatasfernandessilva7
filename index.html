@@ -13,16 +13,24 @@
     <meta name="description"
         content="Currículo profissional de Jonatas Fernandes Silva, especializado em desenvolvimento web.">
     <meta name="theme-color" content="#333333">
-    <script type="text/JavaScript">
-        if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('serviceworker.js')
-        .then( (registration) => {
-            console.log('Service Worker registrado com sucesso:', registration);
-        })
-        .catch( (error) => {
-            console.log('Falha ao registrar o Service Worker:', error);
+    <script>
+        window.addEventListener('load', () => {
+          registerSW();
         });
-}
+     
+        // Register the Service Worker
+        async function registerSW() {
+          if ('serviceWorker' in navigator) {
+            try {
+              await navigator
+                    .serviceWorker
+                    .register('serviceworker.js');
+            }
+            catch (e) {
+              console.log('SW registration failed');
+            }
+          }
+        }
     </script>
 </head>
 
