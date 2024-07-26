@@ -2,7 +2,7 @@ var staticCacheName = "pwa_dice";
 
 const filesToCache = [
 	'./index.html',
-	'./css/styles.css',
+	'./css/main.css',
 ];
  
 self.addEventListener("install", function (e) {
