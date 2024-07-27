@@ -10,8 +10,8 @@
   "scope": ".",
   "description": "Currículo profissional de Jonatas Fernandes Silva, especializado em desenvolvimento web.",
   "icons":[{
-    "src":"images/favicon.png",
-    "sizes":"192x192px",
+    "src":"images/icon.png",
+    "sizes":"192x192",
     "type": "image/png",
     "purpose":"maskable"
   }]
