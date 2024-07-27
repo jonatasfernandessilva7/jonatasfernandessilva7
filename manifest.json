@@ -1,14 +1,14 @@
 {
   "name": "Currículo Jonatas Fernandes Silva",
   "short_name": "Currículo JFS",
-  "description": "Currículo profissional de Jonatas Fernandes Silva, especializado em desenvolvimento web.",
   "start_url": "index.html",
-  "scope": ".",
   "lang": "pt-BR",
   "display": "standalone",
   "orientation":"portrait",
   "background_color": "#ffffff",
   "theme_color": "#000000",
+  "scope": ".",
+  "description": "Currículo profissional de Jonatas Fernandes Silva, especializado em desenvolvimento web.",
   "icons":[{
     "src":"images/favicon.png",
     "sizes":"192x192px",
