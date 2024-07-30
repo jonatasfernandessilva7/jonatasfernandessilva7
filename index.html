@@ -10,23 +10,7 @@
     <meta name="description"
         content="Currículo profissional de Jonatas Fernandes Silva, especializado em desenvolvimento web.">
     <meta name="theme-color" content="#333333">
-    <script>
-        window.addEventListener('load', () => {
-            registerSW();
-        });
-        async function registerSW() {
-            if ('serviceWorker' in navigator) {
-                try {
-                    await navigator
-                        .serviceWorker
-                        .register('serviceworker.js');
-                }
-                catch (e) {
-                    console.log('registro não deu certo');
-                }
-            }
-        }
-    </script>
+    <script src="js/register.js"></script>
     <script type="text/JavaScript" src="js/script.js" defer></script>
 </head>
 
@@ -50,9 +34,9 @@
                 <p>Experiência: Como desenvolvedor ainda n tive nenhuma experiência profissional, apenas acadêmica.
                                 Dentre as quais posso citar:
                                 <ul>
-                                    <li>Projeto Integrador I: <link rel="link" href="https://github.com/jonatasfernandessilva7/backend-schoolLab.git"></li>
+                                    <li>Projeto Integrador I: <button id="Ir">Ir ao projeto</button></li>
                                     <p>Nesse projeto cuidei da parte do Backend, feito em NodeJs com express</p>
-                                    <li>Tasks Utilizando o kernel FreeRTOS: <link rel="link" href="https://github.com/jonatasfernandessilva7/tasks-FreeRTOS-Linux.git"></li>
+                                    <li>Tasks Utilizando o kernel FreeRTOS: <button id="Ir">Ir ao projeto</button></li>
                                 </ul>
                 </p>
             </div>
