@@ -1,61 +1,56 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Meu Pseudo Portfólio</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/main.css" rel="stylesheet"> 
-		<!-- Manifest File link -->
-		<link rel="manifest" href="manifest.json">
-		<script>
-			window.addEventListener('load', () => {
-			  registerSW();
-			});
-		 
-			// Register the Service Worker
-			async function registerSW() {
-			  if ('serviceWorker' in navigator) {
-				try {
-				  await navigator
-						.serviceWorker
-						.register('serviceworker.js');
-				}
-				catch (e) {
-				  console.log('SW registration failed');
-				}
-			  }
-			}
-		</script>
-	</head>
-	<body>
-		<header>
-			<div id="portrait">
-				<img src="images/lhama_opened.png" alt="lhama" height="200px">
-				<img src="images/lhama_closed.png" alt="lhama" height="200px">
-			</div>
-			<div id="banner">
-				Programmer Llama
-			</div>
-		</header>
-		<div class="menu" style="clear:both;">
-			<a href="#rpg">RPG</a><a href="#games">Games</a><a href="#ai">AI</a><a href="#ds">Data Science</a>
-		</div>
-		<section>
-			<div class="parallax"></div>
-			<div class="content" id="rpg">
-				<img src="images/tejo.png" width="100px">
-			</div>
-			<div class="parallaxnight"></div>
-			<div class="content" id="games">
-				<img src="images/bat.png" width="100px">
-			</div>
-			<div class="parallaxnight"></div>
-			<div class="content" id="ai">
-				<a href="./dice.html"><img src="images/rabbit.png" width="100px"></a>
-			</div>
-			<div class="parallax"></div>
-			<div class="content" id="ds"></div>
-		</section>
-		<footer>"Não entre em contato" produções.</footer>
-	</body>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Currículo de Jonatas Fernandes Silva</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="description"
+        content="Currículo profissional de Jonatas Fernandes Silva, especializado em desenvolvimento web.">
+    <meta name="theme-color" content="#333333">
+    <script>
+        window.addEventListener('load', () => {
+          registerSW();
+        });
+     
+        // Register the Service Worker
+        async function registerSW() {
+          if ('serviceWorker' in navigator) {
+            try {
+              await navigator
+                    .serviceWorker
+                    .register('serviceworker.js');
+            }
+            catch (e) {
+              console.log('SW registration failed');
+            }
+          }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Jonatas Fernandes Silva</h1>
+        </div>
+    </header>
+    <main class="container">
+        <section id="profile">
+            <div class="profile-image">
+                <!-- Incluir uma imagem do perfil -->
+                <!-- Exemplo: <img src="profile.jpg" alt="Foto de Jonatas Fernandes Silva"> -->
+            </div>
+            <div class="profile-info">
+                <h2>Sobre Mim</h2>
+                <p>Habilidades: Desenvolvimento Web, JavaScript, HTML, CSS, React, Node.js, etc.</p>
+                <p>Experiência: Profissional com experiência em desenvolvimento web, incluindo a criação de aplicações
+                    de página única (SPA) e Progressive Web Apps (PWA).</p>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>
