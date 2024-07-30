@@ -1,0 +1,1 @@
+const perfilIMG = document.getElementsByClassName('profile-image');

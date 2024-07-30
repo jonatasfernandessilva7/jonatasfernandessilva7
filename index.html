@@ -12,23 +12,22 @@
     <meta name="theme-color" content="#333333">
     <script>
         window.addEventListener('load', () => {
-          registerSW();
+            registerSW();
         });
-     
-        // Register the Service Worker
         async function registerSW() {
-          if ('serviceWorker' in navigator) {
-            try {
-              await navigator
-                    .serviceWorker
-                    .register('serviceworker.js');
+            if ('serviceWorker' in navigator) {
+                try {
+                    await navigator
+                        .serviceWorker
+                        .register('serviceworker.js');
+                }
+                catch (e) {
+                    console.log('registro não deu certo');
+                }
             }
-            catch (e) {
-              console.log('SW registration failed');
-            }
-          }
         }
     </script>
+    <script type="text/JavaScript" src="js/script.js" defer></script>
 </head>
 
 <body>
@@ -40,14 +39,22 @@
     <main class="container">
         <section id="profile">
             <div class="profile-image">
-                <!-- Incluir uma imagem do perfil -->
-                <!-- Exemplo: <img src="profile.jpg" alt="Foto de Jonatas Fernandes Silva"> -->
+                <img src="images/perfilIMG.jpeg" alt="Foto de Jonatas Fernandes Silva">
             </div>
             <div class="profile-info">
                 <h2>Sobre Mim</h2>
-                <p>Habilidades: Desenvolvimento Web, JavaScript, HTML, CSS, React, Node.js, etc.</p>
-                <p>Experiência: Profissional com experiência em desenvolvimento web, incluindo a criação de aplicações
-                    de página única (SPA) e Progressive Web Apps (PWA).</p>
+                <p>Habilidades: Desenvolvimento Web, JavaScript, HTML, CSS, Node.js, etc;
+                                Desenvolvimento Mobile: Kotlin com jatpack compose, Java;
+                                Desenvolvimento sistemas embarcados: C, C++.
+                </p>
+                <p>Experiência: Como desenvolvedor ainda n tive nenhuma experiência profissional, apenas acadêmica.
+                                Dentre as quais posso citar:
+                                <ul>
+                                    <li>Projeto Integrador I: <link rel="link" href="https://github.com/jonatasfernandessilva7/backend-schoolLab.git"></li>
+                                    <p>Nesse projeto cuidei da parte do Backend, feito em NodeJs com express</p>
+                                    <li>Tasks Utilizando o kernel FreeRTOS: <link rel="link" href="https://github.com/jonatasfernandessilva7/tasks-FreeRTOS-Linux.git"></li>
+                                </ul>
+                </p>
             </div>
         </section>
     </main>

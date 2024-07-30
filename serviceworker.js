@@ -3,12 +3,12 @@ var staticCacheName = "pwa_dice";
 const filesToCache = [
 	'./index.html',
 	'./css/main.css',
+	'./js/script.js'
 ];
  
 self.addEventListener("install", function (e) {
 	e.waitUntil(
 		caches.open(staticCacheName).then(function (cache) {
-			// return cache.addAll(["/"]);
 			console.log('ios');
 			return cache.addAll(filesToCache);
 		})
