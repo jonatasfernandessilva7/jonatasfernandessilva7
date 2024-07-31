@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden; /* Para evitar rolagem durante a animação */
+    position: relative; /* Necessário para o pseudo-elemento posicionar-se */
+}
+
+header {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.experiencia {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 0.5s ease-in-out; /* Transição de fade-in */
+}
+
+.experiencia ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experiencia li {
+    background-color: #e3f2fd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Pseudo-elemento para a animação de quadrado */
+body::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background-color: #3498db;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+body.animate::before {
+    width: 200%;
+    height: 200%;
+}
