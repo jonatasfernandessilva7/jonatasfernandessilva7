@@ -6,6 +6,7 @@ const filesToCache = [
 	'./css/mediaQueries.css',
 	'./css/cursos.css',
 	'./css/projetos.css',
+	'./css/habilidades.css',
 	'./js/script.js',
 	'./html/habilidades.html',
 	'./html/projetos.html',
