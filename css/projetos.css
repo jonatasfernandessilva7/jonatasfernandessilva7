@@ -3,75 +3,77 @@ body, html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif; /* Fonte moderna e legível */
-    background-color: #f0f0f5; /* Fundo neutro */
+    font-family: 'Open Sans', sans-serif; /* Fonte moderna e legível */
+    background-color: #f7f8fc; /* Fundo neutro e claro */
     color: #333; /* Texto padrão */
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 20px;
 }
 
 li {
     margin: 10px 0;
+    font-size: 1.1em;
+    line-height: 1.5;
 }
 
 p {
     margin: 20px;
     line-height: 1.6;
     font-size: 1.1em;
-    color: #444;
+    color: #555;
+    max-width: 800px;
 }
 
 button {
-    padding: 12px 25px;
-    font-size: 18px;
+    padding: 12px 30px;
+    font-size: 16px;
     cursor: pointer;
     border: none;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    animation: blink 2s infinite;
-    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
-    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    color: #fff;
+    background-color: #4a90e2; /* Azul suave */
+    margin-top: 10px;
+    display: inline-block;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 button:hover {
+    background-color: #357ABD; /* Azul mais escuro para hover */
     transform: scale(1.05);
 }
 
-/* Animação de piscar com as cores da bandeira do Brasil */
+/* Animação de piscar */
 @keyframes blink {
-    0% {
-        background-color: #1E2A78; /* Azul escuro */
-    }
-    25% {
-        background-color: #FFC72C; /* Amarelo vibrante */
+    0%, 100% {
+        background-color: #4a90e2; /* Azul suave */
     }
     50% {
-        background-color: #34A853; /* Verde moderno */
-    }
-    75% {
-        background-color: #FFFFFF; /* Branco */
-        color: #333;
-    }
-    100% {
-        background-color: #1E2A78; /* Azul escuro */
-        color: white;
+        background-color: #357ABD; /* Azul mais escuro */
     }
 }
 
 /* Efeito de parallax */
 .parallax {
     background-image: url('https://example.com/sua-imagem.jpg'); /* Substitua pelo URL da sua imagem */
-    min-height: 400px; /* Ajuste conforme necessário */
+    min-height: 500px; /* Ajuste conforme necessário */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Animação de rotação */
