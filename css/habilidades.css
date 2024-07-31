@@ -1,0 +1,81 @@
+/* Estilos gerais */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e legível */
+    background-color: #f0f4f8; /* Fundo suave e claro */
+    color: #333; /* Texto padrão */
+}
+
+header {
+    background-color: #4a90e2; /* Azul suave */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+section.Habilidades {
+    margin: 40px 20px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px auto;
+    padding: 15px 20px;
+    max-width: 500px;
+    font-size: 1.2em;
+    color: #555;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.02);
+    background-color: #e9f0f7; /* Suave efeito de destaque */
+}
+
+/* Media Queries para Responsividade */
+
+/* Para dispositivos móveis (tela de até 600px de largura) */
+@media only screen and (max-width: 600px) {
+    header {
+        font-size: 1.5em;
+        padding: 15px 0;
+    }
+
+    li {
+        font-size: 1em;
+        padding: 12px 15px;
+        max-width: 100%;
+        margin: 10px 5px;
+    }
+}
+
+/* Para tablets (tela de até 768px de largura) */
+@media only screen and (max-width: 768px) {
+    header {
+        font-size: 1.8em;
+        padding: 18px 0;
+    }
+
+    li {
+        font-size: 1.1em;
+        padding: 14px 18px;
+        max-width: 90%;
+        margin: 10px auto;
+    }
+}
