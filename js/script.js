@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", () => {
         button.addEventListener("click", () => {
             button.classList.add("rotating");
             
-            // Remove the class after animation ends to allow for repeatable clicks
+            // Remove a classe após a animação terminar para permitir cliques repetidos
             setTimeout(() => {
                 button.classList.remove("rotating");
-            }, 600); // Match the transition duration in CSS
+            }, 600); // Combina com a duração da transição no CSS
         });
     });
 });
