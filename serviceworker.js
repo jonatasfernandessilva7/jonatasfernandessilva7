@@ -5,7 +5,9 @@ const filesToCache = [
 	'./css/main.css',
 	'./js/script.js',
 	'./html/habilidades.html',
-	'./html/projetos.html'
+	'./html/projetos.html',
+	'./html/cursos.html',
+	'./html/experiencia.html'
 ];
  
 self.addEventListener("install", function (e) {
