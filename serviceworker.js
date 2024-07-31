@@ -5,6 +5,7 @@ const filesToCache = [
 	'./css/main.css',
 	'./css/mediaQueries.css',
 	'./css/cursos.css',
+	'./css/projetos.css',
 	'./js/script.js',
 	'./html/habilidades.html',
 	'./html/projetos.html',
