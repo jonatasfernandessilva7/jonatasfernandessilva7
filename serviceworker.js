@@ -3,6 +3,7 @@ var staticCacheName = "pwa_dice";
 const filesToCache = [
 	'./index.html',
 	'./css/main.css',
+	'./css/mediaQueries',
 	'./js/script.js',
 	'./html/habilidades.html',
 	'./html/projetos.html',
