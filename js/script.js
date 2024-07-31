@@ -1,12 +1,11 @@
-let buttonIRProjeto1 = document.getElementById('Ir_projeto1');
-let buttonIRProjeto2 = document.getElementById('Ir_projeto2');
+document.addEventListener('DOMContentLoaded', function () {
+    const profileImage = document.getElementById('profileImage');
 
-buttonIRProjeto1.onclick( function ir() {
-    console.log('oi');
-    window.location.href= "https://github.com/jonatasfernandessilva7/backend-schoolLab.git"
-})
+    profileImage.addEventListener('mouseenter', function () {
+        profileImage.style.transform = 'rotate(180deg)';
+    });
 
-buttonIRProjeto2.addEventListener('click', () => {
-    console.log('oi');
-    window.location.href= "https://github.com/jonatasfernandessilva7/tasks-FreeRTOS-Linux.git"
-})
+    profileImage.addEventListener('mouseleave', function () {
+        profileImage.style.transform = 'rotate(0deg)';
+    });
+});
