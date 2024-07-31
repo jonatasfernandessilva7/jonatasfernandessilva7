@@ -23,3 +23,18 @@ document.addEventListener('DOMContentLoaded', function () {
         experienceSection.style.opacity = '1';
     }, 500); // Tempo da animação deve coincidir com o tempo da transição no CSS
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll("button");
+
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            button.classList.add("rotating");
+            
+            // Remove the class after animation ends to allow for repeatable clicks
+            setTimeout(() => {
+                button.classList.remove("rotating");
+            }, 600); // Match the transition duration in CSS
+        });
+    });
+});

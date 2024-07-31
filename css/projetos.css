@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.rotating {
+    transition: transform 0.6s ease-in-out;
+    transform: rotate(360deg);
+}
