@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9fafb;
+    color: #2e2e2e;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #d0d7de;
+    padding-bottom: 1rem;
+}
+
+.courses {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    padding: 2rem;
+    margin-top: 1.5rem;
+}
+
+.courses ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.courses li {
+    background-color: #eaf3fb;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.75rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #3b3b3b;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+    cursor: pointer;
+}
+
+.courses li:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    background-color: #dbe9f6;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1.5rem;
+    }
+
+    .courses {
+        padding: 1.5rem;
+    }
+
+    header {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.5rem;
+    }
+
+    .courses li {
+        font-size: 0.95rem;
+    }
+}

@@ -1,40 +1,38 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
     const profileImage = document.getElementById('profileImage');
-
-    profileImage.addEventListener('mouseenter', function () {
-        profileImage.style.transform = 'rotate(180deg)';
-    });
-
-    profileImage.addEventListener('mouseleave', function () {
-        profileImage.style.transform = 'rotate(0deg)';
-    });
-});
-
-document.addEventListener('DOMContentLoaded', function () {
-    const bodyElement = document.querySelector('body');
     const experienceSection = document.querySelector('.experiencia');
+    const buttons = document.querySelectorAll('button');
 
-    // Inicia a animação de quadrado
-    bodyElement.classList.add('animate');
+    // Animação no hover da imagem de perfil
+    if (profileImage) {
+        profileImage.addEventListener('mouseenter', () => {
+            profileImage.style.transition = 'transform 0.5s ease-in-out';
+            profileImage.style.transform = 'rotate(180deg) scale(1.1)';
+        });
 
-    // Após a animação de quadrado, revela o conteúdo
-    setTimeout(function () {
-        bodyElement.classList.remove('animate');
-        experienceSection.style.opacity = '1';
-    }, 500); // Tempo da animação deve coincidir com o tempo da transição no CSS
-});
+        profileImage.addEventListener('mouseleave', () => {
+            profileImage.style.transform = 'rotate(0deg) scale(1)';
+        });
+    }
 
-document.addEventListener("DOMContentLoaded", () => {
-    const buttons = document.querySelectorAll("button");
+    // Animação de entrada na seção de experiência
+    if (experienceSection) {
+        experienceSection.style.opacity = '0';
+        experienceSection.style.transition = 'opacity 1s ease';
 
+        setTimeout(() => {
+            experienceSection.style.opacity = '1';
+        }, 300);
+    }
+
+    // Efeito de clique nos botões
     buttons.forEach(button => {
-        button.addEventListener("click", () => {
-            button.classList.add("rotating");
-            
-            // Remove a classe após a animação terminar para permitir cliques repetidos
+        button.addEventListener('click', () => {
+            button.classList.add('rotating');
+
             setTimeout(() => {
-                button.classList.remove("rotating");
-            }, 600); // Combina com a duração da transição no CSS
+                button.classList.remove('rotating');
+            }, 500);
         });
     });
 });

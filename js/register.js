@@ -9,7 +9,7 @@ async function registerSW() {
                 .register('../serviceworker.js');
         }
         catch (e) {
-            console.log('registro não deu certo');
+            console.log('register not work');
         }
     }
 }
