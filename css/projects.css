@@ -26,15 +26,10 @@ section {
     margin-bottom: 3rem;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-weight: 600;
     margin-bottom: 1rem;
     color: #1a1a1a;
-}
-
-p {
-    margin-bottom: 1rem;
-    color: #444;
 }
 
 nav {
@@ -62,12 +57,12 @@ nav a:hover {
     color: #14497c;
 }
 
-ul {
+section {
     list-style: none;
     padding-left: 1rem;
 }
 
-li::before {
+span {
     content: "– ";
     color: #999;
 }
