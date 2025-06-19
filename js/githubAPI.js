@@ -1,7 +1,7 @@
 const repositories = document.querySelector('.parallax');
 
 function getAPIGithubRepositories() {
-    fetch('https://api.github.com/users/jonatasfernandessilva7/repositories')
+    fetch('https://api.github.com/users/jonatasfernandessilva7/repos')
         .then(async res => {
             if(!res.ok) {
                 throw new Error(res.status);
