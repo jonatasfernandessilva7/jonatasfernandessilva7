@@ -1,12 +1,49 @@
 # Welcome! 👋
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6DDCCF&background=FF52BC00&width=610&lines=Hello,+my+name+is+Jônatas." alt="Typing SVG" /></a>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=jonatasfernandessilva7&theme=radical&show_icons=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=jonatasfernandessilva7&theme=radical&layout=compact)
+---
+
+## Stats
+### Streak
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=jonatasfernandessilva7&theme=radical)
 
+### Trophies
+
 ![Trophies](https://github-profile-trophy.vercel.app/?username=jonatasfernandessilva7&theme=radical)
 
-### 😎👇 See more about me at: 
+### Activity
 
-https://jonatasfernandessilva7.github.io/jonatasfernandessilva7/ 
+![jonatasfernandessilva7's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=jonatasfernandessilva7)
+
+---
+
+## Technologies of greatest interest
+
+**Frontend**
+
+![Frontend](https://skillicons.dev/icons?i=js,html,css,angular,vuejs)
+
+**Backend**
+
+![Backend](https://skillicons.dev/icons?i=nodejs,python,java,kotlin,cpp,c,r,flask,fastapi)
+
+**IA/Machine Learning**
+
+![AI/ML](https://skillicons.dev/icons?i=scikitlearn,huggingface,pytorch)
+
+**Databases**
+
+![Databases](https://skillicons.dev/icons?i=postgresql,redis)
+
+**DevOps & Infrastructure**
+
+![DevOps](https://skillicons.dev/icons?i=docker,nginx,linux,aws)
+
+**Tools & Platforms**
+
+![Tools](https://skillicons.dev/icons?i=git,github,discord,vercel)
+
+# 😎👇 See more about me at: 
+
+***https://jonatasfernandessilva7.github.io/jonatasfernandessilva7/***
