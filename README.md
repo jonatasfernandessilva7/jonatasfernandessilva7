@@ -26,15 +26,21 @@
 
 **Backend**
 
-![Backend](https://skillicons.dev/icons?i=nodejs,python,java,cpp,c,r,flask,fastapi)
+![Backend](https://skillicons.dev/icons?i=nodejs,python,java,cpp,c,flask,fastapi)
 
 **Mobile/Native Android**
 
 ![Mobile](https://skillicons.dev/icons?i=kotlin,android)
 
-**IA/Machine Learning**
+**Data Science & Statistics / IA**
 
-![AI/ML](https://skillicons.dev/icons?i=scikitlearn,pytorch)
+![DataScience](https://skillicons.dev/icons?i=r,scikitlearn,pytorch)
+
+![AI/ML](https://skills-icons.vercel.app/api/icons?i=huggingface)
+
+**AI Agents Frameworks**
+
+![LLM](https://img.shields.io/badge/LangChain-1C3144?style=for-the-badge&logo=python&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3144?style=for-the-badge&logo=python&logoColor=white)
 
 **Databases**
 
