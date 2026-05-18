@@ -1,5 +1,5 @@
 # Welcome! 👋
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6DDCCF&background=FF52BC00&width=610&lines=Hello,+my+name+is+Jônatas." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=6DDCCF&background=FF52BC00&width=610&lines=Hello,+my+name+is+Jônatas!" alt="Typing SVG" /></a>
 
 ---
 
@@ -26,11 +26,15 @@
 
 **Backend**
 
-![Backend](https://skillicons.dev/icons?i=nodejs,python,java,kotlin,cpp,c,r,flask,fastapi)
+![Backend](https://skillicons.dev/icons?i=nodejs,python,java,cpp,c,r,flask,fastapi)
+
+**Mobile/Native Android**
+
+![Mobile](https://skillicons.dev/icons?i=kotlin,android)
 
 **IA/Machine Learning**
 
-![AI/ML](https://skillicons.dev/icons?i=scikitlearn,huggingface,pytorch)
+![AI/ML](https://skillicons.dev/icons?i=scikitlearn,pytorch)
 
 **Databases**
 
