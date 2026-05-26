@@ -15,57 +15,88 @@
 </head>
 
 <body>
-  <header>
-    <!-- Navigation bar between resume sections -->
-    <nav>
-      <a href="html/skills.html">Skills</a>
-      <a href="html/courses.html">Courses and Certifications</a>
-      <a href="html/projects.html">Projects</a>
-      <a href="html/experience.html">Experience</a>
-    </nav>
-  </header>
+<div class="container">
+    <!-- Barra de Navegação + Alternador de Tema -->
+    <div class="navbar">
+        <div class="logo">🚀 Jônatas.space</div>
+        <div class="nav-links">
+            <button class="nav-btn active" data-section="sobre">🌌 Sobre</button>
+            <button class="nav-btn" data-section="habilidades">⚡ Habilidades</button>
+            <button class="nav-btn" data-section="cursos">📜 Certificações</button>
+            <button class="nav-btn" data-section="projetos">🛸 Projetos</button>
+            <button class="nav-btn" data-section="experiencia">💼 Experiência</button>
+        </div>
+        <div class="theme-toggle">
+            <button class="theme-btn" data-theme="light">☀️ Claro</button>
+            <button class="theme-btn active" data-theme="dark">🌙 Escuro</button>
+        </div>
+    </div>
 
-  <main>
-    <section class="generalInfo">
-      <img id="profileImage" src="images/perfilIMG.jpeg" alt="Profile picture of Jonatas Fernandes Silva" />
-
-      <h2>About Me</h2>
-      <p>
-        He is currently pursuing a master’s degree in Computer Science 
-        with a focus on Artificial Intelligence (AI) Applied to Cybersecurity. 
-        He holds a bachelor’s degree in Systems Analysis and Development 
-        from the Federal University of Ceará (UFC), 
-        serves as a project manager on the FOGO project, 
-        and recently worked as a CNPq-funded researcher 
-        at the School of Economics, Business Administration, and Accounting 
-        at the University of São Paulo (FEA-USP) in the field of Cyber Crisis Management and AI.
-        He has practical experience in both technology and accounting and administration. 
-        His goal is to integrate this knowledge to develop innovative and efficient solutions.
-      </p><br>
-
-      <p>
-        <strong>My interests include:</strong> Risk Management, People Management, Crisis Management,
-        Artificial Inteligence, Agents, Multiagents Systems (MAS) and Accounting.
-      </p><br>
-
-      <p><strong>Experience and Skills:</strong></p><br>
-      <ul>
-        <li>Teamwork, communication, and leadership</li>
-      </ul>
+    <!-- Seção Sobre (Principal) -->
+    <section id="sobre" class="section active-section">
+        <div class="glass-card profile-header">
+            <img src="images/profile.jpeg" 
+                 alt="Jônatas Fernandes" class="profile-img" id="profileImage"
+                 onerror="this.src='https://via.placeholder.com/160?text=JF'">
+            <h1>Jônatas Fernandes</h1>
+            <div class="tagline">🌠 Mestrando em Ciência da Computação (IA aplicada à Cibersegurança) | Pesquisador | Gestor de Projetos</div>
+            <p style="max-width: 800px; margin: 1rem auto;">
+                Atualmente cursando Mestrado em Ciência da Computação (MDCC - UFC) com foco em Inteligência Artificial Aplicada à Cibersegurança.
+                Técnologo em Análise e Desenvolvimento de Sistemas pela UFC, gerente de projetos no projeto FOGO. Já foi pesquisador PIBIC na FEA-USP.
+                Integro conhecimentos em tecnologia, administração e cibernética para criar soluções inovadoras.
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/jonatasfernandessilva7" target="_blank">🐙 GitHub</a>
+                <a href="https://www.linkedin.com/in/jonatas-fernandes-silva/" target="_blank">🔗 LinkedIn</a>
+                <a href="mailto:jonatasfsilva7@gmail.com">📧 E-mail</a>
+                <a href="https://orcid.org/0009-0001-4943-6163" target="_blank">📖 ORCID</a>
+            </div>
+        </div>
+        <div class="glass-card">
+            <h2 style="color: var(--accent); margin-bottom: 1rem;">🎯 Interesses e Abordagem</h2>
+            <p>Gestão de Riscos, Gestão de Pessoas, Gestão de Crises, Inteligência Artificial, Sistemas Multiagentes (MAS) e Contabilidade. 
+                Busco unir tecnologia de ponta e governança para gerar impacto real.</p>
+        </div>
     </section>
 
-    <section class="contact">
-      <footer>
-        <h3>More information:</h3>
-        <a href="mailto:jonatasfernandes@alu.ufc.br">📧 Email</a>
-        <a href="https://github.com/jonatasfernandessilva7" target="_blank">💻 GitHub</a>
-        <a href="https://www.linkedin.com/in/jfernandessilva/" target="_blank">🧑🏻‍💼 LinkedIn</a>
-        <a href="https://lattes.cnpq.br/4104698254080584" target="_blank">📃 Lattes</a>
-        <a href="https://orcid.org/0009-0002-6937-2964">🔎 Orcid</a>
-        <a href="https://www.youtube.com/@JonTechInformation">🎥 Youtube</a>
-      </footer>
+    <!-- Seção Habilidades (Skills) -->
+    <section id="habilidades" class="section">
+        <div class="glass-card">
+            <h2 style="color: var(--accent); margin-bottom: 0.5rem;">⚙️ Competências Técnicas</h2>
+            <div class="skills-grid" id="skillsContainer">
+                <!-- Preenchido via JS com dados dinâmicos -->
+            </div>
+        </div>
     </section>
-  </main>
+
+    <!-- Seção Cursos e Certificações -->
+    <section id="cursos" class="section">
+        <div class="glass-card">
+            <h2 style="color: var(--accent); margin-bottom: 1rem;">📜 Certificações & Formação Complementar</h2>
+            <div class="courses-grid" id="coursesContainer"></div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="section">
+        <div class="glass-card">
+            <h2 style="color: var(--accent); margin-bottom: 1rem;">🚀 Projetos Relevantes</h2>
+            <div class="projects-grid" id="projectsContainer"></div>
+        </div>
+    </section>
+
+    <!-- Seção Experiência Profissional -->
+    <section id="experiencia" class="section">
+        <div class="glass-card">
+            <h2 style="color: var(--accent); margin-bottom: 1rem;">💼 Histórico Profissional</h2>
+            <div class="exp-grid" id="experienceContainer"></div>
+        </div>
+    </section>
+
+    <footer>
+        🌌 Portfólio · © 2026 Jônatas Fernandes
+    </footer>
+</div>
 </body>
 
 </html>
