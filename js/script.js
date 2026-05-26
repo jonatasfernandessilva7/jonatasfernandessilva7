@@ -10,6 +10,7 @@
     ];
 
     const coursesData = [
+        { title: "Fundamentals of Deep Learning", issuer: "NVIDIA (2025)", status: "Concluído" },
         { title: "Risk Management Foundation (ISO 31000)", issuer: "ITCERTS (2025)", status: "Aprovado" },
         { title: "Critical Security Controls Foundation (CIS v8)", issuer: "ITCERTS (2025)", status: "Aprovado" },
         { title: "Information Security Management Foundation (ISO 27001)", issuer: "ITCERTS (2025)", status: "Aprovado" },
