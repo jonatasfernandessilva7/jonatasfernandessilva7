@@ -8,14 +8,12 @@
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=jonatasfernandessilva7&theme=radical)
 
-### Trophies
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=jonatasfernandessilva7&theme=radical)
-
 ### Activity
 
 ![jonatasfernandessilva7's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=jonatasfernandessilva7)
 
+### Most Used Languages
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=jonatasfernandessilva7&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 ---
 
 ## Technologies of greatest interest
